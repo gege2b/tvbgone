@@ -1,0 +1,194 @@
+# EESchema Netlist Version 1.1 created  07/12/2012 15:14:02
+(
+ ( /4FB2289C PIN_ARRAY_2X1 BT1 BATTERY
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FB22842 SM1206POL C1 220µF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FB68AE2 SM0805 C2 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FB2853C LED-3MM D1 RED
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4FB2872F LED-5MM D2 LED
+  ( 1 VCC )
+  ( 2 N-000003 )
+ )
+ ( /4FB28736 LED-5MM D3 LED
+  ( 1 VCC )
+  ( 2 N-000002 )
+ )
+ ( /4FB28780 LED-5MM D4 LED
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /4FB28786 LED-5MM D5 LED
+  ( 1 VCC )
+  ( 2 N-000009 )
+ )
+ ( /4FB29DF4 RES_CMS_3.2x1.3 F1 ceramic_8mhz
+  ( 1 N-000012 )
+  ( 2 GND )
+  ( 3 N-000013 )
+ )
+ ( /4FB2277F SO8N IC1 ATTINY85-P
+  ( 1 RST )
+  ( 2 N-000012 )
+  ( 3 N-000013 )
+  ( 4 GND )
+  ( 5 MOSI )
+  ( 6 MISO )
+  ( 7 SCK )
+  ( 8 VCC )
+ )
+ ( /50C1F88F dp_devices-CONN_USB_MINI-B J1 USB
+  ( 1 VCC )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /4FB28659 SOT23 NPN1 PN2222
+  ( 1 GND )
+  ( 2 N-000001 )
+  ( 3 N-000003 )
+ )
+ ( /4FB286DF SOT23 NPN2 PN2222
+  ( 1 GND )
+  ( 2 N-000001 )
+  ( 3 N-000002 )
+ )
+ ( /4FB2876F SOT23 NPN3 PN2222
+  ( 1 GND )
+  ( 2 N-000001 )
+  ( 3 N-000010 )
+ )
+ ( /4FB28776 SOT23 NPN4 PN2222
+  ( 1 GND )
+  ( 2 N-000001 )
+  ( 3 N-000009 )
+ )
+ ( /4FB2279D PIN_ARRAY-6X1 P1 ICSP
+  ( 1 MISO )
+  ( 2 VCC )
+  ( 3 SCK )
+  ( 4 MOSI )
+  ( 5 RST )
+  ( 6 GND )
+ )
+ ( /4FB286B1 SOT23 PNP1 PN2907
+  ( 1 VCC )
+  ( 2 N-000004 )
+  ( 3 N-000001 )
+ )
+ ( /4FB28503 SM0805 R1 1k
+  ( 1 N-000006 )
+  ( 2 SCK )
+ )
+ ( /4FB284C6 SM0805 R2 10k
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4FB285EB SM1206 R3 10k
+  ( 1 N-000007 )
+  ( 2 N-000004 )
+ )
+ ( /4FB28356 SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 RST )
+  ( 2 GND )
+ )
+ ( /50884EA6 PCB_SW SW2 PCB_SW
+  ( 1 N-000008 )
+  ( 2 MISO )
+ )
+ ( /508EA683 PCB_SW SW3 PCB_SW
+  ( 1 MOSI )
+  ( 2 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

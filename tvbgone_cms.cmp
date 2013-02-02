@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 07/12/2012 15:14:02
+
+BeginCmp
+TimeStamp = /4FB2289C;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB22842;
+Reference = C1;
+ValeurCmp = 220µF;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB68AE2;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2853C;
+Reference = D1;
+ValeurCmp = RED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2872F;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28736;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28780;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28786;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29DF4;
+Reference = F1;
+ValeurCmp = ceramic_8mhz;
+IdModule  = RES_CMS_3.2x1.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2277F;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /50C1F88F;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = dp_devices-CONN_USB_MINI-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28659;
+Reference = NPN1;
+ValeurCmp = PN2222;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB286DF;
+Reference = NPN2;
+ValeurCmp = PN2222;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2876F;
+Reference = NPN3;
+ValeurCmp = PN2222;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28776;
+Reference = NPN4;
+ValeurCmp = PN2222;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2279D;
+Reference = P1;
+ValeurCmp = ICSP;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB286B1;
+Reference = PNP1;
+ValeurCmp = PN2907;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28503;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB284C6;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB285EB;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB28356;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /50884EA6;
+Reference = SW2;
+ValeurCmp = PCB_SW;
+IdModule  = PCB_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /508EA683;
+Reference = SW3;
+ValeurCmp = PCB_SW;
+IdModule  = PCB_SW;
+EndCmp
+
+EndListe
